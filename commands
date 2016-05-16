@@ -1,0 +1,55 @@
+
+name of universal text editor -> Geany
+
+//to install any package
+sudo apt-get install package_name
+sudo apt-get install apache
+
+
+//too look for softwares already installed 
+dpkg --list     //will display all softwares
+dpkg --list | grep package_name //will display specific softwares
+dpkg --list | grep apache
+
+
+//to remove a software
+sudo apt-get remove {package-name}
+sudo apt-get remove apache
+
+
+//using tar command
+tar -zxvf file.tar.gz
+
+//to view all running process in tree form
+pstree
+
+//to utorrent first open utserver file in opt directory then
+http://192.168.1.48:8080/gui/web/index.html visit this link
+P.S. ip address can be changed at the execution time
+
+
+//to start apache and mysql from command line(when logged in through root)
+service apache2 start
+service apache2 stop
+service mysql start
+service mysql stop
+
+//to start apache and mysql from command line(when logged in through user)
+sudo /etc/init.d/mysql start
+sudo /etc/init.d/apache2 start
+sudo /etc/init.d/mysql stop
+sudo /etc/init.d/apache2 stop
+
+//to start xampp(commandline)
+first login as root user and then run the command:
+/opt/lampp/lampp start
+
+//to start xampp(GUI)
+first login as root user and then run the command:
+./managerxampp*.run
+
+//to give permission to a user for a specific file
+chown user file
+
+//to install a deb file 
+dpkg -i file.deb
