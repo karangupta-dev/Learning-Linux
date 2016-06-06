@@ -1,4 +1,22 @@
 
+//to launch xampp{
+first of all access through root
+./manager-linux-x64.run
+}
+
+//to launch android studio
+{ 
+cd /home/karan/Downloads/android-studio linux/bin
+./studio.sh
+}
+
+//to launch geny motion
+{
+cd /opt/geny
+./genymotion
+}
+
+
 name of universal text editor -> Geany
 
 //to install any package
